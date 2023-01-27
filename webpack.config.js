@@ -8,8 +8,9 @@ module.exports = {
         bundle:path.resolve(__dirname,'src/index.js'),
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: '[name][contenthash].js',
+        
+        filename: 'bundle.js',
+        path: '/',
         clean:true,
         assetModuleFilename: '[name][ext]',
     },
